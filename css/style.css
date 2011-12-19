@@ -1,0 +1,84 @@
+/*
+Plugin Name: Easy Registration/Authorization
+Plugin URI: http://adventurebit.com/
+Description: Easy Registration/Authorization in wordpress
+Author: Selikhov Dmitry
+Version: 1.0
+Author URI: http://adventurebit.com/
+*/
+
+
+.widget_inout {
+  position: relative;
+}
+
+.widget_inout a {
+  cursor: pointer;
+  display: block;
+}
+
+.widget_inout button {
+  cursor: pointer;
+}
+
+.widget_inout .inout_screen {
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  filter:alpha(opacity=30);
+  -moz-opacity: 0.3;
+  -khtml-opacity: 0.3;
+  opacity: 0.3;
+  display: none;
+}
+
+.widget_inout .inout_loading {
+  z-index: 3;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  background: url(../images/loadinfo.gif) no-repeat center center;
+  display: none;
+}
+
+.widget_inout .inout_container {
+  position: relative;
+  z-index: 1;
+}
+
+.widget_inout .inout_content {
+
+}
+
+.widget_inout .inout_content .inout_error {
+  color: darkRed;
+  font-size: 11px;
+}
+
+.widget_inout .inout_message {
+  font-style: italic;
+  color: darkGreen;
+}
+
+.widget_inout #inout_exit .user span {
+  font-style: italic;
+}
+
+.widget_inout #inout_exit .inout_exit_link {
+ 
+}
+
+.widget_inout #inout_auth .inout_reg_link,
+.widget_inout #inout_auth .inout_forgot_link {
+
+}
+
+.widget_inout #inout_reg .inout_auth_link {
+
+}
+
