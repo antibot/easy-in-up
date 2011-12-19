@@ -87,9 +87,7 @@ $(document).ready(function(){
     var type = fields.type;
     
     $.post(INOUT_PLUGIN_URL+'modules/validation.php', fields, function(data) {
-    
-      console.dir(data);
-    
+  
       INOUT.empty_error();
       
       if(data) {
