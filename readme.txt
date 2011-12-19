@@ -30,13 +30,9 @@ e.g.
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+= This easy to use? =
 
-An answer to that question.
-
-= What about foo bar? =
-
-Answer to foo bar dilemma.
+Yes, this plugin is very easy to use!
 
 == Screenshots ==
 
